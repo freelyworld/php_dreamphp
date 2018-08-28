@@ -22,7 +22,7 @@ if test "$PHP_DREAMPHP" != "no"; then
 
   dnl # --with-dreamphp -> check with-path
   dnl SEARCH_PATH="/usr/local /usr"     # you might want to change this
-  dnl SEARCH_FOR="/include/php_dreamphp.h"  # you most likely want to change this
+  dnl SEARCH_FOR="/www/server/php/70/src/ext/php_dreamphp/php_dreamphp.h"  # you most likely want to change this
   dnl if test -r $PHP_DREAMPHP/$SEARCH_FOR; then # path given as parameter
   dnl   DREAMPHP_DIR=$PHP_DREAMPHP
   dnl else # search default path list
