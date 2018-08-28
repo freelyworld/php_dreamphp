@@ -39,7 +39,7 @@ const u_char tonyenc_key[] = {
 git clone https://github.com/freelyworld/php_dreamphp.git
 cd php_dreamphp
 phpize
-./configure
+./configure -with-php-config=/www/server/php/70/bin/php-config
 make
 ```
 将编译好的文件 modules/php_dreamphp.so 加入到配置项 extension=php_dreamphp.so，重启 PHP 服务
